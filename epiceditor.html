@@ -5,16 +5,16 @@
 		<meta charset="UTF-8">
 		<title>EpicEditor</title>
 		
-		<link rel="stylesheet" href="styles/epic-editor/epiceditor.css">
-		<link rel="stylesheet" href="styles/epic-editor/epic-light.css">
-		<link rel="stylesheet" href="styles/epic-editor/github.css">
 		<link rel="stylesheet" href="styles/epic-editor/custom.css">
 	</head>
 	
 	<body>
 		<div id="epiceditor"></div>
 		
-		<p contenteditable="true">This is selectable (editable?) text</p>
+		<div contenteditable="true">This is selectible (and editable) text via the grabSelected function I put on the window</div>
+		
+		<textarea name="test" id="" cols="30" rows="10">This selectible text only works with my 'grabSelection' function if not used in firefox</textarea>
+		<input type="text" value="<-- Same thing as in an input field">
 		
 		<script src="js/epic-editor/epiceditor.js"></script>
 		<script src="js/epic-editor/main.js"></script>
